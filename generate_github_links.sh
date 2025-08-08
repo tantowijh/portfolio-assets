@@ -1,6 +1,6 @@
 #!/bin/bash
 
-REPO_URL="https://github.com/tantowijh/portfolio-assets/blob/main"
+REPO_URL="https://media.githubusercontent.com/media/tantowijh/portfolio-assets/refs/heads/main"
 TARGET_DIR="${1:-.}"
 
 find "$TARGET_DIR" -type f -name "*.webp" | while read -r file; do
